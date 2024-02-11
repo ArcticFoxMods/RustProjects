@@ -1,5 +1,7 @@
 use super::{point::Point, state::GameState, player_direction::PlayerDirection};
 
+
+
 pub struct GameContext {
     pub player_position: Vec<Point>,
     pub player_direction: PlayerDirection,

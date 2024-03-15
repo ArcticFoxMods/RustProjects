@@ -24,7 +24,7 @@ fn main() {
             Err(_) => continue,
         };
         
-        println!("You guess: {guess}");
+        println!("You guessed: {guess}");
 
         match guess.cmp(&secret_number)
         {
@@ -32,7 +32,7 @@ fn main() {
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => 
             {
-                println!("You win!"),
+                println!("You win!");
                 break;
             }
         }
